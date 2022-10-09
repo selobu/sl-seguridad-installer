@@ -33,9 +33,6 @@ VIProductVersion "${VERSION}"
 !define WNDCLASS "WindowClassOfYourApplication"
 !define WNDTITLE $(^Name)
 
-# Firebird install
-#!define wFirebirdKIT "Firebird-2.5.3.26780_0_Win32.exe"
-
 # MultiUser Symbol Definitions
 !define MULTIUSER_EXECUTIONLEVEL Standard
 !define MULTIUSER_INSTALLMODE_INSTDIR_REGISTRY_VALUE "Path"
